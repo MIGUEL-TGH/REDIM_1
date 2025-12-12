@@ -14,6 +14,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/mapa',
+    name: 'MapView',
+    component: () => import('../views/ArcGISMapView.vue')
   }
 ]
 
